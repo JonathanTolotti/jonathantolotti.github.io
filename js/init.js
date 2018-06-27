@@ -5,6 +5,7 @@
     $('.slider').slider();
     $('.fixed-action-btn').floatingActionButton();
     $('.tooltipped').tooltip();
+    $('.collapsible').collapsible();
 
     $(".scroll").click(function(event){        
         event.preventDefault();
@@ -12,4 +13,4 @@
     });
 
   }); // end of document ready
-})(jQuery); // end of jQuery name space
+})(jQuery); // end of jQuery name space 
